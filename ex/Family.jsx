@@ -6,9 +6,8 @@ export default props => {
     return (
         <div>
             <h1>Family</h1>
-            <Member name="John" lastname="Doe"/>
-            <Member name="Jane" lastname="Doe"/>
-            <Member name="Jack" lastname="Doe"/>
+          {props.children}
+          {React.cloneElement(props.children, { ...props })}
         </div>
     )
 }
