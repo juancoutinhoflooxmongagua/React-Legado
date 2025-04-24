@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Family from "./Family";
+import ClassComponent from "./classComponent";
+
 ReactDOM.render(
-    <Family />
-, document.getElementById("app")); 
+    <ClassComponent name="Juan" age={25} profession="Desenvolvedor" />,
+document.getElementById("app")); 
