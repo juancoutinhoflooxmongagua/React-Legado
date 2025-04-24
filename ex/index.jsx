@@ -2,4 +2,4 @@ import React from "react";
 import ReactDOM from "react-dom";
 import myComponent from "./component.jsx";
 
-ReactDOM.render(<myComponent/>, document.getElementById("app")); 
+ReactDOM.render(<myComponent value='Show!'/>, document.getElementById("app")); 
